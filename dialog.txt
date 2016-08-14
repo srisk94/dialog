@@ -1,0 +1,15 @@
+Dialog:
+     A dialog is a small window that prompts the user to make a decision or enter additional information. 
+A dialog does not fill the screen and is normally used for modal events that require users to take an action before they 
+can proceed.
+CUSTOM DIALOG::
+       To create a custom dialogue we have to create an xml file and add that xml file to the dialogue.
+example:
+   final Dialog dialog=new dialog(context);
+       dialog.setContentView(layout id);
+       dialog.setTitle(title);
+
+HOE TO USE EXISTING DIALOG::
+         dialogfragment can impliment oncreatedialog method and return an existing dialog.the dialog class is the bas class 
+for implimenting a dialog..you can use one of them like alertdialog,progressdialog,datepickerdialog,timepickerddialog
+app
